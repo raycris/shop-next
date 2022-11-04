@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Wrapper>
       <Navbar />
-      <h1>Home</h1>
+      <h1>Platzi and Next.js!</h1>
     </Wrapper>
   );
 };
@@ -15,7 +15,5 @@ const Home = () => {
 export default Home;
 
 const Wrapper = styled.div`
-margin: 0;
-padding: 0;
-background-color: red;
-`
+  background-color: red;
+`;
