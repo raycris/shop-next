@@ -3,7 +3,7 @@ tiene el nombre dinamico de [id].ts si fuera otro nombre por ejemplo [avoId].ts 
 id sería request.query.avoId */
 
 import { NextApiRequest, NextApiResponse } from "next";
-import DB from "../../../database/db";
+import DB from "@database/db";
 
 const getAvoById = async (
   request: NextApiRequest,
@@ -15,6 +15,6 @@ const getAvoById = async (
 
   const avo = await db.getById(id as string);
 
-  response.status(200).json(avo );
+  response.status(200).json(avo);
 };
 export default getAvoById;
