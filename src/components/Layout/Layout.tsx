@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "@components/Navbar/Navbar";
 
 /* En react 18 children fue eliminado del tipo FC, 
 para que typescript no de error debes de añadirlo por cuenta propia */
